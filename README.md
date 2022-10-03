@@ -4,7 +4,7 @@
 
 ## Description
 
-This Sample Vue.JS front-end project demonstrates what a typical JavaScript (or node) CI workflow may look on CircleCI.
+This def Sample Vue.JS front-end project demonstrates what a typical JavaScript (or node) CI workflow may look on CircleCI.
 
 You can preview the live CI workflow for this application [on CircleCI](https://app.circleci.com/pipelines/github/CircleCI-Public/sample-javascript-cfd?branch=main).
 
