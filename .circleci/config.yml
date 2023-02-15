@@ -34,7 +34,7 @@ workflows:
   test_my_app:
     jobs:
       - build_and_test
-          context: sonarcloud
+          context: SonarCloud
       - deploy:
           requires:
             - build_and_test # only deploy if the build_and_test job has completed
