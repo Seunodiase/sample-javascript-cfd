@@ -8,6 +8,7 @@ jobs:
     executor: node/default
     steps:
       - checkout
+      - sonarcloud/scan
       - node/install-packages:
           pkg-manager: yarn
       - run:
@@ -15,8 +16,7 @@ jobs:
           name: Run tests
       - run:
           command: yarn build
-          name: Build app
-      - sonarcloud/scan    
+          name: Build app     
       - persist_to_workspace:
           root: ~/project
           paths:
